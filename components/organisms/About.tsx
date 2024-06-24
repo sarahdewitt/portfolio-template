@@ -2,7 +2,7 @@ import Container from "../atoms/Container";
 
 export default function About() {
   return (
-    <Container>
+    <Container section={"About"}>
       <h2>About Me</h2>
       <div className="md:flex items-end justify-between gap-10">
         <img

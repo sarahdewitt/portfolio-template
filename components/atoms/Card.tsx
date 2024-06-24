@@ -24,7 +24,7 @@ export default function ({
             className="object-cover transition-all duration-200 ease-in group-hover:scale-110"
           />
         </div>
-        <p className="pb-1 pt-4 text-lg font-bold">{title}</p>
+        <p className="pb-1 pt-4 text-lg font-normal">{title}</p>
         <p className="w-3/4 text-base">{desc}</p>
       </div>
     </Link>

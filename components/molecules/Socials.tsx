@@ -29,7 +29,7 @@ export default function Socials() {
     <div className='flex flex-wrap gap-5 md:gap-10'>
         {socials.map((social, index) => {
             return (
-                <Link key={index} href={social.href} className='text-base md:text-lg hover:text-orange'>{social.social}</Link>
+                <Link key={index} href={social.href} className='text-base no-underline hover:underline'>{social.social}</Link>
             )
         })}
     </div>

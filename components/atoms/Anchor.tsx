@@ -10,7 +10,7 @@ export const Anchor = ({
   return (
     <Link
       href={href}
-      className="text-base font-medium underline hover:text-orange"
+      className="text-base no-underline hover:underline"
     >
       {children}
     </Link>
