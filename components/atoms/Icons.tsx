@@ -1,9 +1,7 @@
-import React from "react";
-
 export const CloseIcon = () => {
   return (
     <svg
-      fill="#F6F6F6"
+      fill="#F2F1E6"
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
@@ -21,7 +19,7 @@ export const CloseIcon = () => {
 export const HamburgerIcon = () => {
   return (
     <svg
-      fill="#F6F6F6"
+      fill="#F2F1E6"
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"

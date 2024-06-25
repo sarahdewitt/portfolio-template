@@ -2,19 +2,19 @@ import Container from "../atoms/Container";
 
 export default function Hero() {
   return (
-    <Container section="Home">
-      <div className="items-end justify-between pb-10 md:flex md:pb-28">
+    <Container id={"Home"}>
+      <div className="items-center justify-between pt-10 lg:pt-0 lg:flex lg:flex-col">
         {/* This is the headline. Change accordingly. */}
-        <h1 className="w-full pb-10 md:w-3/4 md:pb-0">
+        <h1 className="w-full place-self-start lg:w-3/4 pb-10 lg:pb-0">
           Hey, I’m Emily Harper. <br />
           Frontend Developer <br /> and Designer.
         </h1>
-        <p className="w-full place-self-end text-lg font-normal leading-tight md:w-1/4">
-          I specialize in crafting engaging digital experiences that elevate
-          brands and drive results.
+        {/* This is the sub headline. Change accordingly. */}
+        <p className="w-5/6 place-self-end text-lg font-normal leading-tight lg:w-1/4">
+          I create dynamic and interactive web interfaces that enhance brand
+          identity and deliver measurable outcomes.
         </p>
       </div>
-      <div className="animated-bg h-36 w-full animate-gradient rounded-md bg-gradient-to-r from-orange via-pink to-orange bg-300%"></div>
     </Container>
   );
 }

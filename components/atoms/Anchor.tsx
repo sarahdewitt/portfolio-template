@@ -17,13 +17,13 @@ export const Anchor = ({
   );
 };
 
-export const AnchorLarge = ({ href, text }: { href: string; text: string }) => {
+export const AnchorLarge = ({ href, children }: { href: string; children: string }) => {
   return (
     <Link
       href={href}
-      className="text-lg font-medium underline hover:text-orange"
+      className="text-lg uppercase font-medium no-underline"
     >
-      {text}
+      {children}
     </Link>
   );
 };

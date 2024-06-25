@@ -1,5 +1,3 @@
-import Card from "@/components/atoms/Card";
-import CardGrid from "@/components/molecules/CardGrid";
 import About from "@/components/organisms/About";
 import Contact from "@/components/organisms/Contact";
 import Footer from "@/components/organisms/Footer";
@@ -12,10 +10,10 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

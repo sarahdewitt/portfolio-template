@@ -4,7 +4,8 @@ import MobileMenu from "../molecules/MobileMenu";
 export default function Header() {
   return (
     <>
-      <DesktopMenu/>
+      {/* Ctrl + Click on the component to open up the component file. */}
+      <DesktopMenu />
       <MobileMenu />
     </>
   );

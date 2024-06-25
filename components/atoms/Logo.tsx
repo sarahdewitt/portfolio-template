@@ -1,12 +1,9 @@
 import Link from "next/link";
-import React from "react";
 
 export default function Logo() {
   return (
-    <Link
-      href={"#"}
-      className="text-base font-medium no-underline hover:text-orange"
-    >
+    <Link href={"/"} className="text-sm font-medium uppercase no-underline">
+      {/* Replace with your name. */}
       Emily Harper
     </Link>
   );

@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-export default function ({
+export default function Card ({
   href,
   src,
   alt,
