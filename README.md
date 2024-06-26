@@ -8,10 +8,10 @@ Designed and Developed by Sarah De Witt.
 
 ## Features
 
-- **Personal Introduction and Summary**
-- **About Me**
-- **Projects Grid**
-- **Contact and Socials**
+- Personal Introduction and Summary
+- About Me
+- Projects Grid
+- Contact and Socials
 
 ## Demo
 
