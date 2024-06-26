@@ -12,7 +12,7 @@ export default function About() {
           className="w-full md:w-3/4 rounded-md"
         />
         {/* Replace the profile description here. */}
-        <p className="w-full pt-10 md:pt-0 text-lg">
+        <p className="w-full pt-10 md:pt-0 text-base lg:text-lg">
           Hello! I&apos;m Emily Harper, a frontend developer and designer. I create
           beautiful, functional web experiences with HTML, CSS, JavaScript, and
           React/Vue.js. Passionate about intuitive design and creative

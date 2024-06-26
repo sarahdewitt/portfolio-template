@@ -3,7 +3,7 @@ import { contact } from "@/utils/ContactSocials";
 
 export default function ContactLinks() {
   return (
-    <div className="flex flex-col pb-9 md:pb-0">
+    <div className="flex flex-col pb-9 lg:pb-0">
       {/* To change the contact details, please go to: utils/ContactSocialsts */}
       <Link
         href={`mailto:${contact.email}`}

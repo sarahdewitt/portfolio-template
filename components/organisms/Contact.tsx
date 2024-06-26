@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <Container id="Contact">
       <h2>Let's get in touch and work together.</h2>
-      <div className="md:flex justify-between items-end">
+      <div className="lg:flex justify-between items-end">
         {/* Ctrl + Click on the component to open up the component file. */}
         <ContactLinks/>
         <Socials/>

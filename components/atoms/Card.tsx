@@ -16,7 +16,7 @@ export default function Card ({
   return (
     <Link href={href} className="group no-underline">
       <div className="w-full pb-10">
-        <div className="max-w-screen relative overflow-hidden rounded-md">
+        <div className="max-w-screen relative overflow-hidden rounded-md -z-10">
           <img
             src={src}
             alt={alt}

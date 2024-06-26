@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className='flex justify-between items-end p-4'>
+    <div className='lg:flex justify-between items-end p-4'>
         {/* Copyright */}
         <p className='text-sm text-[#7C7C7C] uppercase'>emily harper © 2024</p>
         {/* Credits. Please do not remove this. thanks 🙏 */}
