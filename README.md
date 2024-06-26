@@ -15,7 +15,7 @@ Designed and Developed by Sarah De Witt.
 
 ## Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://portfolio-template-opal-zeta.vercel.app/).
 
 ## Getting Started
 
